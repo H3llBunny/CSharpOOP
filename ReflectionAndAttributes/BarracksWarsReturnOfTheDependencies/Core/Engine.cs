@@ -38,7 +38,6 @@ namespace BarracksWarsANewFactory.Core
             }
         }
 
-        // TODO: refactor for Problem 4
         private string InterpredCommand(string[] data, string commandName)
         {
             commandName = commandName[0].ToString().ToUpper() + commandName.Substring(1) + "Command";
